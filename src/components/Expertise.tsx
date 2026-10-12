@@ -13,56 +13,58 @@ import imgStrengths from '../assets/images/expertise_strengths.png';
 
 const skillsData = [
   {
-    id: "aiml",
-    icon: faBrain,
-    title: "AI/ML & Deep Learning Research",
-    desc: "Engineering advanced deep learning architectures, computer vision systems, federated learning frameworks, and modern GenAI patterns like RAG, LangGraph, and Transformers. Focused on bridging academic research with real-world product intelligence.",
-    image: imgAiMl,
-    tagTitle: "Research & ML Stack:",
+    id: "fullstack",
+    icon: faCode,
+    title: "Full Stack & Frontend Engineering",
+    desc: "Developing and enhancing production-facing full-stack platforms using React, TypeScript, Node.js, Express.js, PostgreSQL, and Drizzle ORM. Implementing type-safe schemas with Zod, state management with React Query, responsive UIs with Tailwind CSS and Material-UI, and high-performance REST APIs.",
+    image: imgFullStack,
+    tagTitle: "Full-Stack Development Stack:",
     tags: [
-      "Machine Learning", "PyTorch", "TensorFlow", "Scikit-Learn", "CNN", 
-      "Transfer Learning", "Federated Learning", "RAG", "LangGraph", 
-      "Transformers", "Computer Vision", "NLP", "Speech Recognition"
+      "React.js", "TypeScript", "Node.js", "Express.js", "PostgreSQL", 
+      "Drizzle ORM", "Neon", "REST APIs", "React Native", "Tailwind CSS", 
+      "Vite", "Material-UI", "React Query", "React Hook Form", "JWT Authentication", 
+      "Zod", "Wouter", "Radix UI"
     ],
     alt: false
   },
   {
-    id: "fullstack",
-    icon: faRobot,
-    title: "Full Stack & Frontend Development",
-    desc: "Building responsive, modern web applications and mobile platforms using the MERN stack, React Native, Flask, and Streamlit. Implementing secure JWT authentication, state management, and highly optimized REST APIs.",
-    image: imgFullStack,
-    tagTitle: "Development Tech:",
+    id: "aiml",
+    icon: faBrain,
+    title: "AI/ML, Generative AI & Alignment",
+    desc: "Engineering advanced deep learning models, federated learning pipelines, and modern GenAI architectures including LLMs, RAG, Embeddings, Vector Databases, and Agentic AI. Experienced in prompt engineering, ELO comparative benchmarking, and multimodal data alignment pipelines.",
+    image: imgAiMl,
+    tagTitle: "AI/ML & GenAI Stack:",
     tags: [
-      "MERN Stack", "React", "React Native", "Node.js", "Express.js", 
-      "Flask", "Streamlit", "REST APIs", "JWT Authentication", "HTML", "CSS"
+      "LLMs", "RAG", "Embeddings", "Vector Databases", "Agentic AI", 
+      "Prompt Engineering", "OpenAI API", "PyTorch", "TensorFlow", 
+      "Transformers", "NLP", "Scikit-Learn", "CNN", "Federated Learning", 
+      "Computer Vision", "Speech Recognition"
     ],
     alt: true
   },
   {
     id: "tools",
-    icon: faCode,
-    title: "Tools, Cloud & Infrastructure",
-    desc: "Orchestrating containerized nodes using Docker, deploying infrastructure on AWS (EC2, S3), Netlify, and Vercel, and maintaining robust CI/CD pipelines. Using advanced visualization tools like PowerBI, Excel, and data libraries like OpenCV and Plotly.",
+    icon: faRobot,
+    title: "Cloud, DevOps & Data Tools",
+    desc: "Deploying and managing scalable applications with Docker, AWS (EC2, S3), Vercel, and Netlify. Orchestrating version control via Git & GitHub, and utilizing comprehensive data analysis and visualization tooling with OpenCV, Jupyter, Plotly, Matplotlib, and Seaborn.",
     image: imgTools,
     tagTitle: "Cloud & Dev Tools:",
     tags: [
-      "Git", "Docker", "AWS (EC2, S3)", "Netlify", "Vercel", "OpenCV", 
-      "Jupyter", "Plotly", "Matplotlib", "Seaborn", "PostgreSQL", "SQL"
+      "Git", "GitHub", "Docker", "AWS (EC2, S3)", "Vercel", "Netlify", 
+      "PostgreSQL", "MySQL", "OpenCV", "Jupyter", "Plotly", "Matplotlib", "Seaborn"
     ],
     alt: false
   },
   {
     id: "strengths",
     icon: faAward,
-    title: "Core Execution & Strengths",
-    desc: "Leading cross-functional developer operations, running customer discovery sprints, coordinating agile product backlogs, and managing product design from ideation to production delivery.",
+    title: "Programming Languages & Core Execution",
+    desc: "Proficient across multiple languages and paradigms with deep algorithmic problem solving. Experienced in data annotation, model evaluation rubrics, workflow optimization, agile team execution, and leading startup operations from concept to production delivery.",
     image: imgStrengths,
-    tagTitle: "Leadership & Strategy:",
+    tagTitle: "Languages & Strengths:",
     tags: [
-      "Problem Solving", "Research & Analysis", "Algorithm Design", 
-      "Data Annotation & Evaluation", "Model Training", "Prompt Engineering", 
-      "Product Development", "Leadership & Execution"
+      "Python", "TypeScript", "JavaScript", "C/C++", "SQL", "HTML", "CSS", "Java",
+      "Model Evaluation", "Workflow Optimization", "Product Strategy", "Leadership & Execution"
     ],
     alt: true
   }

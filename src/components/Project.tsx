@@ -10,8 +10,8 @@ const projectsData = [
     id: "endangered",
     title: "Endangered Species Detection & Prevention",
     image: projectEndangered,
-    tech: "React.js, Flask, Python, PyTorch, YOLO, OpenCV, REST APIs, Netlify",
-    desc: "Built a full-stack wildlife conservation platform using React.js, Flask, PyTorch, YOLO, and OpenCV. The application identifies endangered species from uploaded images and provides conservation insights through an integrated knowledge base containing IUCN Red List information, habitat details, and conservation status. The platform was deployed on Netlify with an interactive user interface for real-time predictions.",
+    tech: "React.js, Flask, PyTorch, YOLO, OpenCV",
+    desc: "Full-stack wildlife conservation platform using React.js and Flask for endangered species identification and conservation analysis. Trained a YOLO object detection model on 17,141 images across 82 animal species, enabling automated species identification with bounding-box localization. Built a Flask REST API pipeline for image processing and model inference, with a structured knowledge retrieval layer containing species taxonomy, habitat, population, conservation status, threats, and protection measures.",
     github: "https://github.com/nikshitha1312/Endagered_species_guide",
     demo: "https://endangerdspecies.netlify.app/",
     alt: false
@@ -20,8 +20,8 @@ const projectsData = [
     id: "grammar",
     title: "Grammar Scoring Engine",
     image: projectGrammar,
-    tech: "Python, Streamlit, SpeechRecognition, TextBlob, LanguageTool, NLP",
-    desc: "Developed an AI-powered grammar evaluation application using Streamlit, SpeechRecognition, TextBlob, and LanguageTool. The application converts spoken English into text, analyzes grammatical correctness using NLP techniques, and provides automated grammar feedback along with evaluation scores through an interactive web interface.",
+    tech: "Streamlit, Python, SpeechRecognition, TextBlob, LanguageTool, NLP",
+    desc: "AI-powered grammar evaluation application using Streamlit, SpeechRecognition, and NLP for automated spoken-English assessment. Implemented an end-to-end speech-to-text pipeline for recorded audio and evaluated grammatical correctness of generated transcripts. Integrated TextBlob and LanguageTool to detect grammatical errors, generate automated feedback, and produce grammar scores.",
     github: "https://github.com/nikshitha1312/Grammar_Scoring_Engine_SHL_assess",
     alt: true
   },

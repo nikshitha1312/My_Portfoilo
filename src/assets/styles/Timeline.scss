@@ -13,10 +13,15 @@
 
 .vertical-timeline-element h3 {
     color: rgb(39, 40, 34);
+    font-weight: bold;
+    margin-bottom: 4px;
 }
 
 .vertical-timeline-element h4 {
-    color: rgb(39, 40, 34);
+    color: #4b5563;
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 8px;
 }
 
 .vertical-timeline-element span {
@@ -29,6 +34,45 @@
 
 .svg-inline--fa {
     color: white;
+}
+
+.vertical-timeline-element {
+    .timeline-tech {
+        font-weight: 700;
+        margin: 6px 0 10px 0 !important;
+        font-size: 0.88rem;
+        color: #5000ca !important;
+        line-height: 1.4;
+    }
+
+    ul.timeline-bullets {
+        margin: 8px 0 12px 18px;
+        padding: 0;
+        list-style-type: disc;
+
+        li {
+            color: rgb(55, 65, 81);
+            font-size: 0.88rem;
+            line-height: 1.55;
+            margin-bottom: 6px;
+            font-family: "Lato", sans-serif;
+            text-align: left;
+        }
+    }
+
+    .timeline-cert-link {
+        color: #5000ca;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 6px;
+        font-size: 0.88rem;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: #3b0094;
+            text-decoration: underline;
+        }
+    }
 }
 
 @media screen and (max-width: 1170px) {

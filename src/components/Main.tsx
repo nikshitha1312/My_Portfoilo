@@ -24,10 +24,10 @@ function Main() {
             <a href="mailto:nikshitha1312@gmail.com"><EmailIcon/></a>
           </div>
           <h1>Nikshitha Vadthyavath</h1>
-          <p className="hero-subtitle">AI Researcher & Full-Stack Developer | Founder & CEO @ Gozy Private Limited</p>
+          <p className="hero-subtitle">Full Stack Developer @ A3CEND | Founder & CEO @ Gozy | AI Researcher</p>
           
           <p className="hero-pitch">
-            Building intelligent systems at the intersection of AI research, full-stack development, and product innovation to create real-world impact.
+            Building production-scale full-stack learning platforms, scalable web architectures, and intelligent systems at the intersection of AI research and real-world product delivery.
           </p>
 
           <div className="hero-buttons">
@@ -51,7 +51,7 @@ function Main() {
             <div className="stat-card">
               <BriefcaseIcon />
               <div>
-                <span className="number">3+</span>
+                <span className="number">4</span>
                 <span className="label">Experiences</span>
               </div>
             </div>
